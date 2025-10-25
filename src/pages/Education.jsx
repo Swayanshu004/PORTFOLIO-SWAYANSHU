@@ -7,6 +7,7 @@ function Education() {
     }
   return (
     <div className='pt-40'>
+        <h2 className='font-[myFont1] text-[8vw] md:text-[5vw] text-white px-5 mb-5'>EDUCATION</h2>
         <div 
         onMouseMove={handleMouseMove}
         className='border-y-2 group border-neutral-800 flex items-center justify-between px-10 py-[7vh]'>

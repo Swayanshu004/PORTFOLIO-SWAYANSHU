@@ -11,75 +11,98 @@ function Skill() {
     return (
         <div className='py-24 px-10'>
             <div className='pb-10'>
-                <h1 className='px-5 py-5 text-cyan-500 text-[3vh] font-[myFont1] border-t border-t-cyan-500'>LANGUAGE :</h1>
+                <h1 className='px-5 py-5 text-cyan-500 text-[2vh] md:text-[3vh] font-[myFont1] border-t border-t-cyan-500'>SKILL :</h1>
                 <div className='flex flex-wrap items-center justify-start gap-10'>
-                    <div className='w-fit text-[20vh] px-10 py-10 border border-neutral-600'>
+                    <div className='w-fit text-[2vh] md:text-[3vh] px-5 md:px-10 py-5 border border-neutral-600'>
+                        <h2>Frontend</h2>
+                    </div>
+                    <div className='w-fit text-[2vh] md:text-[3vh] px-5 md:px-10 py-5 border border-neutral-600'>
+                        <h2>Backend</h2>
+                    </div>
+                    <div className='w-fit text-[2vh] md:text-[3vh] px-5 md:px-10 py-5 border border-neutral-600'>
+                        <h2>Database</h2>
+                    </div>
+                    <div className='w-fit text-[2vh] md:text-[3vh] px-5 md:px-10 py-5 border border-neutral-600'>
+                        <h2>UI / UX</h2>
+                    </div>
+                    <div className='w-fit text-[2vh] md:text-[3vh] px-5 md:px-10 py-5 border border-neutral-600'>
+                        <h2>Mobile App</h2>
+                    </div>
+                    <div className='w-fit text-[2vh] md:text-[3vh] px-5 md:px-10 py-5 border border-neutral-600'>
+                        <h2>Machine Learning</h2>
+                    </div>
+                </div>
+            </div>
+            <div className='pb-10'>
+                <h1 className='px-5 py-5 text-cyan-500 text-[2vh] md:text-[3vh] font-[myFont1] border-t border-t-cyan-500'>LANGUAGE :</h1>
+                <div className='flex flex-wrap items-center justify-start gap-10'>
+                    <div className='w-fit text-[3vh] md:text-[20vh] px-5 md:px-10 py-5 md:py-10 border border-neutral-600'>
                         <IoLogoJavascript />
                     </div>
-                    <div className='w-fit text-[20vh] px-10 py-10 border border-neutral-600'>
+                    <div className='w-fit text-[3vh] md:text-[20vh] px-5 md:px-10 py-5 md:py-10 border border-neutral-600'>
                         <FaPython  />
                     </div>
-                    <div className='w-fit text-[20vh] px-10 py-10 border border-neutral-600'>
+                    <div className='w-fit text-[3vh] md:text-[20vh] px-5 md:px-10 py-5 md:py-10 border border-neutral-600'>
                         <FaJava />
                     </div>
-                    <div className='w-fit text-[20vh] px-10 py-10 border border-neutral-600'>
+                    <div className='w-fit text-[3vh] md:text-[20vh] px-5 md:px-10 py-5 md:py-10 border border-neutral-600'>
                         <BsFiletypeSql />
                     </div>
-                    <div className='w-fit text-[20vh] px-10 py-10 border border-neutral-600'>
+                    <div className='w-fit text-[3vh] md:text-[20vh] px-5 md:px-10 py-5 md:py-10 border border-neutral-600'>
                         <SiTypescript />
                     </div>
-                    <div className='w-fit text-[20vh] px-10 py-10 border border-neutral-600'>
+                    <div className='w-fit text-[3vh] md:text-[20vh] px-5 md:px-10 py-5 md:py-10 border border-neutral-600'>
                         <FaHtml5 />
                     </div>
                 </div>
             </div>
             <div className='pb-10'>
-                <h1 className='px-5 py-5 text-cyan-500 text-[3vh] font-[myFont1] border-t border-t-cyan-500'>FrameWork | Library :</h1>
+                <h1 className='px-5 py-5 text-cyan-500 text-[2vh] md:text-[3vh] font-[myFont1] border-t border-t-cyan-500'>FrameWork | Library :</h1>
                 <div className='flex flex-wrap items-center justify-start gap-10'>
-                    <div className='w-fit text-[20vh] px-10 py-10 border border-neutral-600'>
+                    <div className='w-fit text-[3vh] md:text-[20vh] px-5 md:px-10 py-5 md:py-10 border border-neutral-600'>
                         <FaReact />
                     </div>
-                    <div className='w-fit text-[20vh] px-10 py-10 border border-neutral-600'>
+                    <div className='w-fit text-[3vh] md:text-[20vh] px-5 md:px-10 py-5 md:py-10 border border-neutral-600'>
                         <FaNode />
                     </div>
-                    <div className='w-fit text-[20vh] px-10 py-10 border border-neutral-600'>
+                    <div className='w-fit text-[3vh] md:text-[20vh] px-5 md:px-10 py-5 md:py-10 border border-neutral-600'>
                         <SiExpress />
                     </div>
-                    <div className='w-fit text-[20vh] px-10 py-10 border border-neutral-600'>
+                    <div className='w-fit text-[3vh] md:text-[20vh] px-5 md:px-10 py-5 md:py-10 border border-neutral-600'>
                         <SiNumpy />
                     </div>
-                    <div className='w-fit text-[20vh] px-10 py-10 border border-neutral-600'>
+                    <div className='w-fit text-[3vh] md:text-[20vh] px-5 md:px-10 py-5 md:py-10 border border-neutral-600'>
                         <SiLangchain  />
                     </div>
-                    <div className='w-fit text-[10vh] px-10 py-16 border border-neutral-600'>
+                    <div className='w-fit text-[2vh] md:text-[10vh] px-5 md:px-10 py-5 md:py-16 border border-neutral-600'>
                         <h2>pandas</h2>
                     </div>
-                    <div className='w-fit text-[20vh] px-10 py-10 border border-neutral-600'>
+                    <div className='w-fit text-[3vh] md:text-[20vh] px-5 md:px-10 py-5 md:py-10 border border-neutral-600'>
                         <RiTailwindCssFill />
                     </div>
-                    <div className='w-fit text-[10vh] px-10 py-16 border border-neutral-600'>
+                    <div className='w-fit text-[2vh] md:text-[10vh] px-5 md:px-10 py-5 md:py-16 border border-neutral-600'>
                         <h2>NEXT.js</h2>
                     </div>
                 </div>
             </div>
             <div className='pb-10'>
-                <h1 className='px-5 py-5 text-cyan-500 text-[3vh] font-[myFont1] border-t border-t-cyan-500'>Tool :</h1>
+                <h1 className='px-5 py-5 text-cyan-500 text-[2vh] md:text-[3vh] font-[myFont1] border-t border-t-cyan-500'>Tool :</h1>
                 <div className='flex flex-wrap items-center justify-start gap-10'>
-                    <div className='w-fit text-[20vh] px-10 py-10 border border-neutral-600'>
+                    <div className='w-fit text-[3vh] md:text-[20vh] px-5 md:px-10 py-5 md:py-10 border border-neutral-600'>
                         <FaGitAlt />
                     </div>
-                    <div className='w-fit text-[20vh] px-10 py-10 border border-neutral-600'>
+                    <div className='w-fit text-[3vh] md:text-[20vh] px-5 md:px-10 py-5 md:py-10 border border-neutral-600'>
                         <FaNode />
                     </div>
                 </div>
             </div>
             <div className='pb-10'>
-                <h1 className='px-5 py-5 text-cyan-500 text-[3vh] font-[myFont1] border-t border-t-cyan-500'>Database :</h1>
+                <h1 className='px-5 py-5 text-cyan-500 text-[2vh] md:text-[3vh] font-[myFont1] border-t border-t-cyan-500'>Database :</h1>
                 <div className='flex flex-wrap items-center justify-start gap-10'>
-                    <div className='w-fit text-[20vh] px-10 py-10 border border-neutral-600'>
+                    <div className='w-fit text-[3vh] md:text-[20vh] px-5 md:px-10 py-5 md:py-10 border border-neutral-600'>
                         <SiMongodb />
                     </div>
-                    <div className='w-fit text-[20vh] px-10 py-10 border border-neutral-600'>
+                    <div className='w-fit text-[3vh] md:text-[20vh] px-5 md:px-10 py-5 md:py-10 border border-neutral-600'>
                         <BiLogoPostgresql />
                     </div>
                 </div>

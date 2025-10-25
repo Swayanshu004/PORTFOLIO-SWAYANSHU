@@ -22,14 +22,8 @@ function HeroFooter() {
             <h1 className='text-neutral-500 text-sm hover:text-cyan-500 duration-500'>SWAYANSHU SATYAPRAGYAN SAHOO</h1>
             <h1 className='text-neutral-500 text-sm hover:text-cyan-500 duration-500'>2025</h1>
             <div className='flex flex-col md:flex-row gap-2'>
-                <Link to="/" className='px-5 py-2 text-sm font-bold text-neutral-500 border-2 rounded-full hover:border-cyan-500 hover:text-white'>
-                    lk
-                </Link>
-                <Link to="/" className='px-5 py-2 text-sm font-bold text-neutral-500 border-2 rounded-full hover:border-cyan-500 hover:text-white'>
-                    ig
-                </Link>
-                <Link to="/" className='px-5 py-2 text-sm font-bold text-neutral-500 border-2 rounded-full hover:border-cyan-500 hover:text-white'>
-                    gh
+                <Link to="https://drive.google.com/file/d/1tmkH12CVATz6itEdBIIDDoxB-xQiupSE/view?usp=drive_link" className='px-5 py-2 text-sm font-bold text-neutral-500 border-2 rounded-full hover:border-cyan-500 hover:text-white'>
+                    RESUME
                 </Link>
             </div>
         </div>

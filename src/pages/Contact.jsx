@@ -8,9 +8,9 @@ function Contact() {
   return (
     <div>
       <div className='pt-20'>
-          <div className='h-[80vh] flex flex-col gap-10 items-center justify-around'>
+          <div className='h-[50vh] md:h-[80vh] flex flex-col gap-10 items-center justify-around'>
               <h1 
-              className='text-[4vw] w-1/2 font-[myFont1] leading-tight'>
+              className='text-[8vw] md:text-[4vw] w-1/2 font-[myFont1] leading-tight'>
                   To Talk About Your <span className='text-cyan-400'>Project</span>
               </h1>
               <div className='bg-cyan-400 h-[10vh] flex items-center justify-center rotate-3 '>
@@ -30,9 +30,9 @@ function Contact() {
                 </div>
               </div>
           </div>
-          <div className='h-[80vh] flex flex-col gap-10 items-center justify-around'>
+          <div className='h-[50vh] md:h-[80vh] flex flex-col gap-10 items-center justify-around'>
               <h1 
-              className='text-[4vw] w-1/2 font-[myFont1] leading-tight'>
+              className='text-[8vw] md:text-[4vw] w-1/2 font-[myFont1] leading-tight'>
                   To <span className='text-cyan-400'>Connect</span> With Me
               </h1>
               <div className='bg-cyan-400 h-[10vh] flex items-center justify-center -rotate-3 '>
@@ -52,9 +52,9 @@ function Contact() {
                 </div>
               </div>
           </div>
-          <div className='h-[80vh] flex flex-col gap-10 items-center justify-around'>
+          <div className='h-[50vh] md:h-[80vh] flex flex-col gap-10 items-center justify-around'>
               <h1 
-              className='text-[4vw] w-1/2 font-[myFont1] leading-tight'>
+              className='text-[8vw] md:text-[4vw] w-1/2 font-[myFont1] leading-tight'>
                   To See My <span className='text-cyan-400'>Work</span>
               </h1>
               <div className='bg-cyan-400 h-[10vh] flex items-center justify-center rotate-3 '>
