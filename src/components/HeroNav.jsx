@@ -10,7 +10,7 @@ function HeroNav() {
   return (
     <div className='w-screen top-0 flex  fixed justify-between z-4'>
         <Link to="/" >
-            <h1 className='font-[myFont1] text-[3vh] py-2 px-2'>SSS</h1>
+            <img className='pl-5 pt-2 h-[8vh]' src="./image/applogo.png" alt="logo" />
         </Link>
         <div 
         onClick={()=>{
