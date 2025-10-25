@@ -10,7 +10,7 @@ function HeroNav() {
   return (
     <div className='w-screen top-0 flex  fixed justify-between z-4'>
         <Link to="/" >
-            <img className='pl-5 pt-2 h-[5vh] md:h-[8vh]' src="./image/applogo.png" alt="logo" />
+            <img className='pl-5 pt-2 h-[5vh] md:h-[8vh] rounded-full' src="./image/applogo.png" alt="logo" />
         </Link>
         <div 
         onClick={()=>{
