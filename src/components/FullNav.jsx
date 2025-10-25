@@ -67,11 +67,11 @@ function FullNav() {
     <div ref={fullScreenRef} className='fullscreennav hidden text-white overflow-hidden h-screen w-full z-50 absolute'>
         <div className='h-screen w-full fixed'>
                 <div className='h-full w-full flex'>
-                    <div className='stairing h-full w-1/5 bg-black'></div>
-                    <div className='stairing h-full w-1/5 bg-black'></div>
-                    <div className='stairing h-full w-1/5 bg-black'></div>
-                    <div className='stairing h-full w-1/5 bg-black'></div>
-                    <div className='stairing h-full w-1/5 bg-black'></div>
+                    <div className='stairing h-full w-1/5 bg-neutral-900'></div>
+                    <div className='stairing h-full w-1/5 bg-neutral-900'></div>
+                    <div className='stairing h-full w-1/5 bg-neutral-900'></div>
+                    <div className='stairing h-full w-1/5 bg-neutral-900'></div>
+                    <div className='stairing h-full w-1/5 bg-neutral-900'></div>
                 </div>
             </div>
         <div ref={fullNavLinksRef} className='relative'>
